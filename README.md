@@ -1,2 +1,3 @@
 # Bike_share_Data_analysis
-Analyzing Bike share company's three branches in NYC, Chicago and Washington to answer some questions to make some data driven decisions.
+The bike share company's three branches in **NYC**, **Chicago**, and **Washington** provide a wealth of data that can be used to make informed decisions. By analyzing riders' gender and age, the company can optimize its operations and improve the overall customer experience. For example, by tracking trip duration and popular routes, the company can allocate resources more efficiently and ensure that bikes are available where and when they are needed most. Additionally, by analyzing rider type, whether he is a subscriber or not, and important start and end stations, the company can identify areas for improvement and make necessary adjustments to its services.</br>
+I've used some libraries in Python like Pandas, Numpy, and Matplotlib to analyse the data.
