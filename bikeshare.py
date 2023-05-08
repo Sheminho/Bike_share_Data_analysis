@@ -16,7 +16,7 @@ from datetime import datetime
 # # Data Wrangling
 # ## Data Gathering
 
-# In[1]:
+# In[2]:
 
 
 df_chic = pd.read_csv('chicago.csv')
@@ -74,7 +74,7 @@ df_chic.duplicated().sum()
 df_ny.duplicated().sum()
 
 
-# In[2]:
+# In[11]:
 
 
 df_wash.duplicated().sum()
@@ -150,7 +150,7 @@ df.info()
 df.head()
 
 
-# # Data Exploration
+# # Data Exploration, Mining
 
 # In[22]:
 
@@ -176,7 +176,19 @@ df['Start Time'].mode()
 df['State'].value_counts()
 
 
-# In[28]:
+# In[26]:
+
+
+plt.hist(df.State)
+
+
+# In[110]:
+
+
+plt.scatter(df["Start Time"], df["Trip Duration"])
+
+
+# In[111]:
 
 
 df.to_csv('BikeShare_Mod.csv')

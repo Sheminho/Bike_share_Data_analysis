@@ -14614,12 +14614,12 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_chic</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;chicago.csv&#39;</span><span class="p">)</span>
@@ -14630,36 +14630,6 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
      </div>
 </div>
 </div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
-Input <span class="ansi-green-intense-fg ansi-bold">In [1]</span>, in <span class="ansi-cyan-fg">&lt;cell line: 1&gt;</span><span class="ansi-blue-intense-fg ansi-bold">()</span>
-<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span> df_chic <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">pd</span><span style="color: rgb(98,98,98)">.</span>read_csv(<span style="color: rgb(175,0,0)">&#39;</span><span style="color: rgb(175,0,0)">chicago.csv</span><span style="color: rgb(175,0,0)">&#39;</span>)
-<span class="ansi-green-fg">      2</span> df_ny <span style="color: rgb(98,98,98)">=</span> pd<span style="color: rgb(98,98,98)">.</span>read_csv(<span style="color: rgb(175,0,0)">&#39;</span><span style="color: rgb(175,0,0)">nyc.csv</span><span style="color: rgb(175,0,0)">&#39;</span>)
-<span class="ansi-green-fg">      3</span> df_wash <span style="color: rgb(98,98,98)">=</span> pd<span style="color: rgb(98,98,98)">.</span>read_csv(<span style="color: rgb(175,0,0)">&#39;</span><span style="color: rgb(175,0,0)">washington.csv</span><span style="color: rgb(175,0,0)">&#39;</span>)
-
-<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name &#39;pd&#39; is not defined</pre>
-</div>
-</div>
-
-</div>
-
 </div>
 
 </div>
@@ -15304,7 +15274,7 @@ memory usage: 16.0+ MB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_wash</span><span class="o">.</span><span class="n">duplicated</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
@@ -15325,18 +15295,15 @@ memory usage: 16.0+ MB
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[11]:</div>
 
 
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
-Input <span class="ansi-green-intense-fg ansi-bold">In [2]</span>, in <span class="ansi-cyan-fg">&lt;cell line: 1&gt;</span><span class="ansi-blue-intense-fg ansi-bold">()</span>
-<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span> <span class="ansi-yellow-bg">df_wash</span><span style="color: rgb(98,98,98)">.</span>duplicated()<span style="color: rgb(98,98,98)">.</span>sum()
 
-<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name &#39;df_wash&#39; is not defined</pre>
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>0</pre>
 </div>
+
 </div>
 
 </div>
@@ -15488,7 +15455,7 @@ Input <span class="ansi-green-intense-fg ansi-bold">In [2]</span>, in <span clas
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>C:\Users\ip\AppData\Local\Temp\ipykernel_20712\1007062906.py:1: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+<pre>C:\Users\ip\AppData\Local\Temp\ipykernel_22648\1007062906.py:1: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
   df = df.append(df_ny)
 </pre>
 </div>
@@ -15528,7 +15495,7 @@ Input <span class="ansi-green-intense-fg ansi-bold">In [2]</span>, in <span clas
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>C:\Users\ip\AppData\Local\Temp\ipykernel_20712\2418393439.py:1: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+<pre>C:\Users\ip\AppData\Local\Temp\ipykernel_22648\2418393439.py:1: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
   df = df.append(df_wash)
 </pre>
 </div>
@@ -15738,7 +15705,7 @@ memory usage: 67.9+ MB
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Data-Exploration">Data Exploration<a class="anchor-link" href="#Data-Exploration">&#182;</a></h1>
+<h1 id="Data-Exploration,-Mining">Data Exploration, Mining<a class="anchor-link" href="#Data-Exploration,-Mining">&#182;</a></h1>
 </div>
 </div>
 </div>
@@ -15938,10 +15905,10 @@ Name: State, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[28]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[26]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">&#39;BikeShare_Mod.csv&#39;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">State</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -15959,212 +15926,117 @@ Name: State, dtype: int64</pre>
 <div class="jp-OutputArea-child">
 
     
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[26]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>(array([238948.,      0.,      0.,      0.,      0., 270102.,      0.,
+             0.,      0., 300000.]),
+ array([0. , 0.2, 0.4, 0.6, 0.8, 1. , 1.2, 1.4, 1.6, 1.8, 2. ]),
+ &lt;BarContainer object of 10 artists&gt;)</pre>
+</div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
     <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
 
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">KeyboardInterrupt</span>                         Traceback (most recent call last)
-File <span class="ansi-green-intense-fg ansi-bold">C:\Python\Python310\lib\site-packages\pandas\io\formats\excel.py:894</span>, in <span class="ansi-cyan-fg">ExcelFormatter.write</span><span class="ansi-blue-intense-fg ansi-bold">(self, writer, sheet_name, startrow, startcol, freeze_panes, engine, storage_options)</span>
-<span class="ansi-green-fg">    893</span> <span class="ansi-bold" style="color: rgb(0,135,0)">try</span>:
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 894</span>     <span class="ansi-yellow-bg">writer</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">write_cells</span><span class="ansi-yellow-bg">(</span>
-<span class="ansi-green-fg">    895</span> <span class="ansi-yellow-bg">        </span><span class="ansi-yellow-bg">formatted_cells</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-fg">    896</span> <span class="ansi-yellow-bg">        </span><span class="ansi-yellow-bg">sheet_name</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-fg">    897</span> <span class="ansi-yellow-bg">        </span><span class="ansi-yellow-bg">startrow</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">startrow</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-fg">    898</span> <span class="ansi-yellow-bg">        </span><span class="ansi-yellow-bg">startcol</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">startcol</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-fg">    899</span> <span class="ansi-yellow-bg">        </span><span class="ansi-yellow-bg">freeze_panes</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">freeze_panes</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-fg">    900</span> <span class="ansi-yellow-bg">    </span><span class="ansi-yellow-bg">)</span>
-<span class="ansi-green-fg">    901</span> <span class="ansi-bold" style="color: rgb(0,135,0)">finally</span>:
-<span class="ansi-green-fg">    902</span>     <span style="color: rgb(95,135,135)"># make sure to close opened file handles</span>
 
-File <span class="ansi-green-intense-fg ansi-bold">C:\Python\Python310\lib\site-packages\pandas\io\excel\_openpyxl.py:460</span>, in <span class="ansi-cyan-fg">OpenpyxlWriter.write_cells</span><span class="ansi-blue-intense-fg ansi-bold">(self, cells, sheet_name, startrow, startcol, freeze_panes)</span>
-<span class="ansi-green-fg">    456</span>     wks<span style="color: rgb(98,98,98)">.</span>freeze_panes <span style="color: rgb(98,98,98)">=</span> wks<span style="color: rgb(98,98,98)">.</span>cell(
-<span class="ansi-green-fg">    457</span>         row<span style="color: rgb(98,98,98)">=</span>freeze_panes[<span style="color: rgb(98,98,98)">0</span>] <span style="color: rgb(98,98,98)">+</span> <span style="color: rgb(98,98,98)">1</span>, column<span style="color: rgb(98,98,98)">=</span>freeze_panes[<span style="color: rgb(98,98,98)">1</span>] <span style="color: rgb(98,98,98)">+</span> <span style="color: rgb(98,98,98)">1</span>
-<span class="ansi-green-fg">    458</span>     )
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 460</span> <span class="ansi-bold" style="color: rgb(0,135,0)">for</span> cell <span class="ansi-bold" style="color: rgb(175,0,255)">in</span> cells:
-<span class="ansi-green-fg">    461</span>     xcell <span style="color: rgb(98,98,98)">=</span> wks<span style="color: rgb(98,98,98)">.</span>cell(
-<span class="ansi-green-fg">    462</span>         row<span style="color: rgb(98,98,98)">=</span>startrow <span style="color: rgb(98,98,98)">+</span> cell<span style="color: rgb(98,98,98)">.</span>row <span style="color: rgb(98,98,98)">+</span> <span style="color: rgb(98,98,98)">1</span>, column<span style="color: rgb(98,98,98)">=</span>startcol <span style="color: rgb(98,98,98)">+</span> cell<span style="color: rgb(98,98,98)">.</span>col <span style="color: rgb(98,98,98)">+</span> <span style="color: rgb(98,98,98)">1</span>
-<span class="ansi-green-fg">    463</span>     )
 
-File <span class="ansi-green-intense-fg ansi-bold">C:\Python\Python310\lib\site-packages\pandas\io\formats\excel.py:831</span>, in <span class="ansi-cyan-fg">ExcelFormatter.get_formatted_cells</span><span class="ansi-blue-intense-fg ansi-bold">(self)</span>
-<span class="ansi-green-fg">    830</span> <span class="ansi-bold" style="color: rgb(0,135,0)">def</span> <span style="color: rgb(0,0,255)">get_formatted_cells</span>(<span style="color: rgb(0,135,0)">self</span>) <span style="color: rgb(98,98,98)">-</span><span style="color: rgb(98,98,98)">&gt;</span> Iterable[ExcelCell]:
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 831</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">for</span> cell <span class="ansi-bold" style="color: rgb(175,0,255)">in</span> itertools<span style="color: rgb(98,98,98)">.</span>chain(<span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_format_header(), <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_format_body()):
-<span class="ansi-green-fg">    832</span>         cell<span style="color: rgb(98,98,98)">.</span>val <span style="color: rgb(98,98,98)">=</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_format_value(cell<span style="color: rgb(98,98,98)">.</span>val)
-
-File <span class="ansi-green-intense-fg ansi-bold">C:\Python\Python310\lib\site-packages\pandas\io\formats\excel.py:712</span>, in <span class="ansi-cyan-fg">ExcelFormatter._format_regular_rows</span><span class="ansi-blue-intense-fg ansi-bold">(self)</span>
-<span class="ansi-green-fg">    711</span> <span class="ansi-bold" style="color: rgb(0,135,0)">for</span> idx, idxval <span class="ansi-bold" style="color: rgb(175,0,255)">in</span> <span style="color: rgb(0,135,0)">enumerate</span>(index_values):
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 712</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">yield</span> <span class="ansi-yellow-bg">CssExcelCell</span><span class="ansi-yellow-bg">(</span>
-<span class="ansi-green-fg">    713</span> <span class="ansi-yellow-bg">        </span><span class="ansi-yellow-bg">row</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">rowcounter</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">+</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">idx</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-fg">    714</span> <span class="ansi-yellow-bg">        </span><span class="ansi-yellow-bg">col</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">0</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-fg">    715</span> <span class="ansi-yellow-bg">        </span><span class="ansi-yellow-bg">val</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">idxval</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-fg">    716</span> <span class="ansi-yellow-bg">        </span><span class="ansi-yellow-bg">style</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">header_style</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-fg">    717</span> <span class="ansi-yellow-bg">        </span><span class="ansi-yellow-bg">css_styles</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg" style="color: rgb(0,135,0)">getattr</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">styler</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">&#34;</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">ctx_index</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">&#34;</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg ansi-bold" style="color: rgb(0,135,0)">None</span><span class="ansi-yellow-bg">)</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-fg">    718</span> <span class="ansi-yellow-bg">        </span><span class="ansi-yellow-bg">css_row</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">idx</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-fg">    719</span> <span class="ansi-yellow-bg">        </span><span class="ansi-yellow-bg">css_col</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">0</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-fg">    720</span> <span class="ansi-yellow-bg">        </span><span class="ansi-yellow-bg">css_converter</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">style_converter</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-fg">    721</span> <span class="ansi-yellow-bg">    </span><span class="ansi-yellow-bg">)</span>
-<span class="ansi-green-fg">    722</span> coloffset <span style="color: rgb(98,98,98)">=</span> <span style="color: rgb(98,98,98)">1</span>
-
-File <span class="ansi-green-intense-fg ansi-bold">C:\Python\Python310\lib\site-packages\pandas\io\formats\excel.py:75</span>, in <span class="ansi-cyan-fg">CssExcelCell.__init__</span><span class="ansi-blue-intense-fg ansi-bold">(self, row, col, val, style, css_styles, css_row, css_col, css_converter, **kwargs)</span>
-<span class="ansi-green-fg">     74</span> <span class="ansi-bold" style="color: rgb(0,135,0)">class</span> <span class="ansi-bold" style="color: rgb(0,0,255)">CssExcelCell</span>(ExcelCell):
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 75</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">def</span> <span style="color: rgb(0,0,255)">__init__</span>(
-<span class="ansi-green-fg">     76</span>         <span style="color: rgb(0,135,0)">self</span>,
-<span class="ansi-green-fg">     77</span>         row: <span style="color: rgb(0,135,0)">int</span>,
-<span class="ansi-green-fg">     78</span>         col: <span style="color: rgb(0,135,0)">int</span>,
-<span class="ansi-green-fg">     79</span>         val,
-<span class="ansi-green-fg">     80</span>         style: <span style="color: rgb(0,135,0)">dict</span> <span style="color: rgb(98,98,98)">|</span> <span class="ansi-bold" style="color: rgb(0,135,0)">None</span>,
-<span class="ansi-green-fg">     81</span>         css_styles: <span style="color: rgb(0,135,0)">dict</span>[<span style="color: rgb(0,135,0)">tuple</span>[<span style="color: rgb(0,135,0)">int</span>, <span style="color: rgb(0,135,0)">int</span>], <span style="color: rgb(0,135,0)">list</span>[<span style="color: rgb(0,135,0)">tuple</span>[<span style="color: rgb(0,135,0)">str</span>, Any]]] <span style="color: rgb(98,98,98)">|</span> <span class="ansi-bold" style="color: rgb(0,135,0)">None</span>,
-<span class="ansi-green-fg">     82</span>         css_row: <span style="color: rgb(0,135,0)">int</span>,
-<span class="ansi-green-fg">     83</span>         css_col: <span style="color: rgb(0,135,0)">int</span>,
-<span class="ansi-green-fg">     84</span>         css_converter: Callable <span style="color: rgb(98,98,98)">|</span> <span class="ansi-bold" style="color: rgb(0,135,0)">None</span>,
-<span class="ansi-green-fg">     85</span>         <span style="color: rgb(98,98,98)">*</span><span style="color: rgb(98,98,98)">*</span>kwargs,
-<span class="ansi-green-fg">     86</span>     ):
-<span class="ansi-green-fg">     87</span>         <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> css_styles <span class="ansi-bold" style="color: rgb(175,0,255)">and</span> css_converter:
-
-<span class="ansi-red-intense-fg ansi-bold">KeyboardInterrupt</span>: 
-
-During handling of the above exception, another exception occurred:
-
-<span class="ansi-red-intense-fg ansi-bold">KeyboardInterrupt</span>                         Traceback (most recent call last)
-Input <span class="ansi-green-intense-fg ansi-bold">In [28]</span>, in <span class="ansi-cyan-fg">&lt;cell line: 1&gt;</span><span class="ansi-blue-intense-fg ansi-bold">()</span>
-<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span> <span class="ansi-yellow-bg">df</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">to_excel</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">&#39;</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">BikeShare_Mod.xlsx</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">&#39;</span><span class="ansi-yellow-bg">)</span>
-
-File <span class="ansi-green-intense-fg ansi-bold">C:\Python\Python310\lib\site-packages\pandas\core\generic.py:2345</span>, in <span class="ansi-cyan-fg">NDFrame.to_excel</span><span class="ansi-blue-intense-fg ansi-bold">(self, excel_writer, sheet_name, na_rep, float_format, columns, header, index, index_label, startrow, startcol, engine, merge_cells, encoding, inf_rep, verbose, freeze_panes, storage_options)</span>
-<span class="ansi-green-fg">   2332</span> <span class="ansi-bold" style="color: rgb(0,135,0)">from</span> <span class="ansi-bold" style="color: rgb(0,0,255)">pandas</span><span class="ansi-bold" style="color: rgb(0,0,255)">.</span><span class="ansi-bold" style="color: rgb(0,0,255)">io</span><span class="ansi-bold" style="color: rgb(0,0,255)">.</span><span class="ansi-bold" style="color: rgb(0,0,255)">formats</span><span class="ansi-bold" style="color: rgb(0,0,255)">.</span><span class="ansi-bold" style="color: rgb(0,0,255)">excel</span> <span class="ansi-bold" style="color: rgb(0,135,0)">import</span> ExcelFormatter
-<span class="ansi-green-fg">   2334</span> formatter <span style="color: rgb(98,98,98)">=</span> ExcelFormatter(
-<span class="ansi-green-fg">   2335</span>     df,
-<span class="ansi-green-fg">   2336</span>     na_rep<span style="color: rgb(98,98,98)">=</span>na_rep,
-<span class="ansi-green-intense-fg ansi-bold">   (...)</span>
-<span class="ansi-green-fg">   2343</span>     inf_rep<span style="color: rgb(98,98,98)">=</span>inf_rep,
-<span class="ansi-green-fg">   2344</span> )
-<span class="ansi-green-intense-fg ansi-bold">-&gt; 2345</span> <span class="ansi-yellow-bg">formatter</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">write</span><span class="ansi-yellow-bg">(</span>
-<span class="ansi-green-fg">   2346</span> <span class="ansi-yellow-bg">    </span><span class="ansi-yellow-bg">excel_writer</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-fg">   2347</span> <span class="ansi-yellow-bg">    </span><span class="ansi-yellow-bg">sheet_name</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">sheet_name</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-fg">   2348</span> <span class="ansi-yellow-bg">    </span><span class="ansi-yellow-bg">startrow</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">startrow</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-fg">   2349</span> <span class="ansi-yellow-bg">    </span><span class="ansi-yellow-bg">startcol</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">startcol</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-fg">   2350</span> <span class="ansi-yellow-bg">    </span><span class="ansi-yellow-bg">freeze_panes</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">freeze_panes</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-fg">   2351</span> <span class="ansi-yellow-bg">    </span><span class="ansi-yellow-bg">engine</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">engine</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-fg">   2352</span> <span class="ansi-yellow-bg">    </span><span class="ansi-yellow-bg">storage_options</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">storage_options</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-fg">   2353</span> <span class="ansi-yellow-bg">)</span>
-
-File <span class="ansi-green-intense-fg ansi-bold">C:\Python\Python310\lib\site-packages\pandas\io\formats\excel.py:904</span>, in <span class="ansi-cyan-fg">ExcelFormatter.write</span><span class="ansi-blue-intense-fg ansi-bold">(self, writer, sheet_name, startrow, startcol, freeze_panes, engine, storage_options)</span>
-<span class="ansi-green-fg">    901</span> <span class="ansi-bold" style="color: rgb(0,135,0)">finally</span>:
-<span class="ansi-green-fg">    902</span>     <span style="color: rgb(95,135,135)"># make sure to close opened file handles</span>
-<span class="ansi-green-fg">    903</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> need_save:
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 904</span>         <span class="ansi-yellow-bg">writer</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">close</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">)</span>
-
-File <span class="ansi-green-intense-fg ansi-bold">C:\Python\Python310\lib\site-packages\pandas\io\excel\_base.py:1205</span>, in <span class="ansi-cyan-fg">ExcelWriter.close</span><span class="ansi-blue-intense-fg ansi-bold">(self)</span>
-<span class="ansi-green-fg">   1203</span> <span class="ansi-bold" style="color: rgb(0,135,0)">def</span> <span style="color: rgb(0,0,255)">close</span>(<span style="color: rgb(0,135,0)">self</span>) <span style="color: rgb(98,98,98)">-</span><span style="color: rgb(98,98,98)">&gt;</span> <span class="ansi-bold" style="color: rgb(0,135,0)">None</span>:
-<span class="ansi-green-fg">   1204</span>     <span style="color: rgb(175,0,0)">&#34;&#34;&#34;synonym for save, to make it more file-like&#34;&#34;&#34;</span>
-<span class="ansi-green-intense-fg ansi-bold">-&gt; 1205</span>     <span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">save</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">)</span>
-<span class="ansi-green-fg">   1206</span>     <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>handles<span style="color: rgb(98,98,98)">.</span>close()
-
-File <span class="ansi-green-intense-fg ansi-bold">C:\Python\Python310\lib\site-packages\pandas\io\excel\_openpyxl.py:81</span>, in <span class="ansi-cyan-fg">OpenpyxlWriter.save</span><span class="ansi-blue-intense-fg ansi-bold">(self)</span>
-<span class="ansi-green-fg">     77</span> <span class="ansi-bold" style="color: rgb(0,135,0)">def</span> <span style="color: rgb(0,0,255)">save</span>(<span style="color: rgb(0,135,0)">self</span>):
-<span class="ansi-green-fg">     78</span>     <span style="color: rgb(175,0,0)">&#34;&#34;&#34;</span>
-<span class="ansi-green-fg">     79</span> <span style="color: rgb(175,0,0)">    Save workbook to disk.</span>
-<span class="ansi-green-fg">     80</span> <span style="color: rgb(175,0,0)">    &#34;&#34;&#34;</span>
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 81</span>     <span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">book</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">save</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">handles</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">handle</span><span class="ansi-yellow-bg">)</span>
-<span class="ansi-green-fg">     82</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> <span style="color: rgb(175,0,0)">&#34;</span><span style="color: rgb(175,0,0)">r+</span><span style="color: rgb(175,0,0)">&#34;</span> <span class="ansi-bold" style="color: rgb(175,0,255)">in</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>mode <span class="ansi-bold" style="color: rgb(175,0,255)">and</span> <span class="ansi-bold" style="color: rgb(175,0,255)">not</span> <span style="color: rgb(0,135,0)">isinstance</span>(<span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>handles<span style="color: rgb(98,98,98)">.</span>handle, mmap<span style="color: rgb(98,98,98)">.</span>mmap):
-<span class="ansi-green-fg">     83</span>         <span style="color: rgb(95,135,135)"># truncate file to the written content</span>
-<span class="ansi-green-fg">     84</span>         <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>handles<span style="color: rgb(98,98,98)">.</span>handle<span style="color: rgb(98,98,98)">.</span>truncate()
-
-File <span class="ansi-green-intense-fg ansi-bold">C:\Python\Python310\lib\site-packages\openpyxl\workbook\workbook.py:407</span>, in <span class="ansi-cyan-fg">Workbook.save</span><span class="ansi-blue-intense-fg ansi-bold">(self, filename)</span>
-<span class="ansi-green-fg">    405</span> <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>write_only <span class="ansi-bold" style="color: rgb(175,0,255)">and</span> <span class="ansi-bold" style="color: rgb(175,0,255)">not</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>worksheets:
-<span class="ansi-green-fg">    406</span>     <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>create_sheet()
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 407</span> <span class="ansi-yellow-bg">save_workbook</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">filename</span><span class="ansi-yellow-bg">)</span>
-
-File <span class="ansi-green-intense-fg ansi-bold">C:\Python\Python310\lib\site-packages\openpyxl\writer\excel.py:293</span>, in <span class="ansi-cyan-fg">save_workbook</span><span class="ansi-blue-intense-fg ansi-bold">(workbook, filename)</span>
-<span class="ansi-green-fg">    291</span> archive <span style="color: rgb(98,98,98)">=</span> ZipFile(filename, <span style="color: rgb(175,0,0)">&#39;</span><span style="color: rgb(175,0,0)">w</span><span style="color: rgb(175,0,0)">&#39;</span>, ZIP_DEFLATED, allowZip64<span style="color: rgb(98,98,98)">=</span><span class="ansi-bold" style="color: rgb(0,135,0)">True</span>)
-<span class="ansi-green-fg">    292</span> writer <span style="color: rgb(98,98,98)">=</span> ExcelWriter(workbook, archive)
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 293</span> <span class="ansi-yellow-bg">writer</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">save</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">)</span>
-<span class="ansi-green-fg">    294</span> <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span class="ansi-bold" style="color: rgb(0,135,0)">True</span>
-
-File <span class="ansi-green-intense-fg ansi-bold">C:\Python\Python310\lib\site-packages\openpyxl\writer\excel.py:275</span>, in <span class="ansi-cyan-fg">ExcelWriter.save</span><span class="ansi-blue-intense-fg ansi-bold">(self)</span>
-<span class="ansi-green-fg">    273</span> <span class="ansi-bold" style="color: rgb(0,135,0)">def</span> <span style="color: rgb(0,0,255)">save</span>(<span style="color: rgb(0,135,0)">self</span>):
-<span class="ansi-green-fg">    274</span>     <span style="color: rgb(175,0,0)">&#34;&#34;&#34;Write data into the archive.&#34;&#34;&#34;</span>
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 275</span>     <span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">write_data</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">)</span>
-<span class="ansi-green-fg">    276</span>     <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_archive<span style="color: rgb(98,98,98)">.</span>close()
-
-File <span class="ansi-green-intense-fg ansi-bold">C:\Python\Python310\lib\site-packages\openpyxl\writer\excel.py:75</span>, in <span class="ansi-cyan-fg">ExcelWriter.write_data</span><span class="ansi-blue-intense-fg ansi-bold">(self)</span>
-<span class="ansi-green-fg">     72</span> <span class="ansi-bold" style="color: rgb(0,135,0)">else</span>:
-<span class="ansi-green-fg">     73</span>     archive<span style="color: rgb(98,98,98)">.</span>writestr(ARC_THEME, theme_xml)
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 75</span> <span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">_write_worksheets</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">)</span>
-<span class="ansi-green-fg">     76</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_write_chartsheets()
-<span class="ansi-green-fg">     77</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_write_images()
-
-File <span class="ansi-green-intense-fg ansi-bold">C:\Python\Python310\lib\site-packages\openpyxl\writer\excel.py:215</span>, in <span class="ansi-cyan-fg">ExcelWriter._write_worksheets</span><span class="ansi-blue-intense-fg ansi-bold">(self)</span>
-<span class="ansi-green-fg">    212</span> <span class="ansi-bold" style="color: rgb(0,135,0)">for</span> idx, ws <span class="ansi-bold" style="color: rgb(175,0,255)">in</span> <span style="color: rgb(0,135,0)">enumerate</span>(<span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>workbook<span style="color: rgb(98,98,98)">.</span>worksheets, <span style="color: rgb(98,98,98)">1</span>):
-<span class="ansi-green-fg">    214</span>     ws<span style="color: rgb(98,98,98)">.</span>_id <span style="color: rgb(98,98,98)">=</span> idx
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 215</span>     <span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">write_worksheet</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">ws</span><span class="ansi-yellow-bg">)</span>
-<span class="ansi-green-fg">    217</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> ws<span style="color: rgb(98,98,98)">.</span>_drawing:
-<span class="ansi-green-fg">    218</span>         <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_write_drawing(ws<span style="color: rgb(98,98,98)">.</span>_drawing)
-
-File <span class="ansi-green-intense-fg ansi-bold">C:\Python\Python310\lib\site-packages\openpyxl\writer\excel.py:200</span>, in <span class="ansi-cyan-fg">ExcelWriter.write_worksheet</span><span class="ansi-blue-intense-fg ansi-bold">(self, ws)</span>
-<span class="ansi-green-fg">    198</span> <span class="ansi-bold" style="color: rgb(0,135,0)">else</span>:
-<span class="ansi-green-fg">    199</span>     writer <span style="color: rgb(98,98,98)">=</span> WorksheetWriter(ws)
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 200</span>     <span class="ansi-yellow-bg">writer</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">write</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">)</span>
-<span class="ansi-green-fg">    202</span> ws<span style="color: rgb(98,98,98)">.</span>_rels <span style="color: rgb(98,98,98)">=</span> writer<span style="color: rgb(98,98,98)">.</span>_rels
-<span class="ansi-green-fg">    203</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_archive<span style="color: rgb(98,98,98)">.</span>write(writer<span style="color: rgb(98,98,98)">.</span>out, ws<span style="color: rgb(98,98,98)">.</span>path[<span style="color: rgb(98,98,98)">1</span>:])
-
-File <span class="ansi-green-intense-fg ansi-bold">C:\Python\Python310\lib\site-packages\openpyxl\worksheet\_writer.py:359</span>, in <span class="ansi-cyan-fg">WorksheetWriter.write</span><span class="ansi-blue-intense-fg ansi-bold">(self)</span>
-<span class="ansi-green-fg">    355</span> <span style="color: rgb(175,0,0)">&#34;&#34;&#34;</span>
-<span class="ansi-green-fg">    356</span> <span style="color: rgb(175,0,0)">High level</span>
-<span class="ansi-green-fg">    357</span> <span style="color: rgb(175,0,0)">&#34;&#34;&#34;</span>
-<span class="ansi-green-fg">    358</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>write_top()
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 359</span> <span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">write_rows</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">)</span>
-<span class="ansi-green-fg">    360</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>write_tail()
-<span class="ansi-green-fg">    361</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>close()
-
-File <span class="ansi-green-intense-fg ansi-bold">C:\Python\Python310\lib\site-packages\openpyxl\worksheet\_writer.py:125</span>, in <span class="ansi-cyan-fg">WorksheetWriter.write_rows</span><span class="ansi-blue-intense-fg ansi-bold">(self)</span>
-<span class="ansi-green-fg">    123</span> <span class="ansi-bold" style="color: rgb(0,135,0)">with</span> xf<span style="color: rgb(98,98,98)">.</span>element(<span style="color: rgb(175,0,0)">&#34;</span><span style="color: rgb(175,0,0)">sheetData</span><span style="color: rgb(175,0,0)">&#34;</span>):
-<span class="ansi-green-fg">    124</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">for</span> row_idx, row <span class="ansi-bold" style="color: rgb(175,0,255)">in</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>rows():
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 125</span>         <span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">write_row</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">xf</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">row</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">row_idx</span><span class="ansi-yellow-bg">)</span>
-<span class="ansi-green-fg">    127</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>xf<span style="color: rgb(98,98,98)">.</span>send(<span class="ansi-bold" style="color: rgb(0,135,0)">None</span>)
-
-File <span class="ansi-green-intense-fg ansi-bold">C:\Python\Python310\lib\site-packages\openpyxl\worksheet\_writer.py:147</span>, in <span class="ansi-cyan-fg">WorksheetWriter.write_row</span><span class="ansi-blue-intense-fg ansi-bold">(self, xf, row, row_idx)</span>
-<span class="ansi-green-fg">    141</span> <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> (
-<span class="ansi-green-fg">    142</span>     cell<span style="color: rgb(98,98,98)">.</span>_value <span class="ansi-bold" style="color: rgb(175,0,255)">is</span> <span class="ansi-bold" style="color: rgb(0,135,0)">None</span>
-<span class="ansi-green-fg">    143</span>     <span class="ansi-bold" style="color: rgb(175,0,255)">and</span> <span class="ansi-bold" style="color: rgb(175,0,255)">not</span> cell<span style="color: rgb(98,98,98)">.</span>has_style
-<span class="ansi-green-fg">    144</span>     <span class="ansi-bold" style="color: rgb(175,0,255)">and</span> <span class="ansi-bold" style="color: rgb(175,0,255)">not</span> cell<span style="color: rgb(98,98,98)">.</span>_comment
-<span class="ansi-green-fg">    145</span>     ):
-<span class="ansi-green-fg">    146</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">continue</span>
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 147</span> <span class="ansi-yellow-bg">write_cell</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">xf</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">ws</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">cell</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">cell</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">has_style</span><span class="ansi-yellow-bg">)</span>
-
-File <span class="ansi-green-intense-fg ansi-bold">C:\Python\Python310\lib\site-packages\openpyxl\cell\_writer.py:45</span>, in <span class="ansi-cyan-fg">etree_write_cell</span><span class="ansi-blue-intense-fg ansi-bold">(xf, worksheet, cell, styled)</span>
-<span class="ansi-green-fg">     43</span> <span class="ansi-bold" style="color: rgb(0,135,0)">def</span> <span style="color: rgb(0,0,255)">etree_write_cell</span>(xf, worksheet, cell, styled<span style="color: rgb(98,98,98)">=</span><span class="ansi-bold" style="color: rgb(0,135,0)">None</span>):
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 45</span>     value, attributes <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">_set_attributes</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">cell</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">styled</span><span class="ansi-yellow-bg">)</span>
-<span class="ansi-green-fg">     47</span>     el <span style="color: rgb(98,98,98)">=</span> Element(<span style="color: rgb(175,0,0)">&#34;</span><span style="color: rgb(175,0,0)">c</span><span style="color: rgb(175,0,0)">&#34;</span>, attributes)
-<span class="ansi-green-fg">     48</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> value <span class="ansi-bold" style="color: rgb(175,0,255)">is</span> <span class="ansi-bold" style="color: rgb(0,135,0)">None</span> <span class="ansi-bold" style="color: rgb(175,0,255)">or</span> value <span style="color: rgb(98,98,98)">==</span> <span style="color: rgb(175,0,0)">&#34;</span><span style="color: rgb(175,0,0)">&#34;</span>:
-
-File <span class="ansi-green-intense-fg ansi-bold">C:\Python\Python310\lib\site-packages\openpyxl\cell\_writer.py:17</span>, in <span class="ansi-cyan-fg">_set_attributes</span><span class="ansi-blue-intense-fg ansi-bold">(cell, styled)</span>
-<span class="ansi-green-fg">     15</span> attrs <span style="color: rgb(98,98,98)">=</span> {<span style="color: rgb(175,0,0)">&#39;</span><span style="color: rgb(175,0,0)">r</span><span style="color: rgb(175,0,0)">&#39;</span>: coordinate}
-<span class="ansi-green-fg">     16</span> <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> styled:
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 17</span>     attrs[<span style="color: rgb(175,0,0)">&#39;</span><span style="color: rgb(175,0,0)">s</span><span style="color: rgb(175,0,0)">&#39;</span>] <span style="color: rgb(98,98,98)">=</span> <span style="color: rgb(175,0,0)">f</span><span style="color: rgb(175,0,0)">&#34;</span><span class="ansi-bold" style="color: rgb(175,95,135)">{</span>cell<span style="color: rgb(98,98,98)">.</span>style_id<span class="ansi-bold" style="color: rgb(175,95,135)">}</span><span style="color: rgb(175,0,0)">&#34;</span>
-<span class="ansi-green-fg">     19</span> <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> cell<span style="color: rgb(98,98,98)">.</span>data_type <span style="color: rgb(98,98,98)">==</span> <span style="color: rgb(175,0,0)">&#34;</span><span style="color: rgb(175,0,0)">s</span><span style="color: rgb(175,0,0)">&#34;</span>:
-<span class="ansi-green-fg">     20</span>     attrs[<span style="color: rgb(175,0,0)">&#39;</span><span style="color: rgb(175,0,0)">t</span><span style="color: rgb(175,0,0)">&#39;</span>] <span style="color: rgb(98,98,98)">=</span> <span style="color: rgb(175,0,0)">&#34;</span><span style="color: rgb(175,0,0)">inlineStr</span><span style="color: rgb(175,0,0)">&#34;</span>
-
-File <span class="ansi-green-intense-fg ansi-bold">C:\Python\Python310\lib\site-packages\openpyxl\styles\styleable.py:144</span>, in <span class="ansi-cyan-fg">StyleableObject.style_id</span><span class="ansi-blue-intense-fg ansi-bold">(self)</span>
-<span class="ansi-green-fg">    142</span> <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_style <span class="ansi-bold" style="color: rgb(175,0,255)">is</span> <span class="ansi-bold" style="color: rgb(0,135,0)">None</span>:
-<span class="ansi-green-fg">    143</span>     <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_style <span style="color: rgb(98,98,98)">=</span> StyleArray()
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 144</span> <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">parent</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">parent</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">_cell_styles</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">add</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">_style</span><span class="ansi-yellow-bg">)</span>
-
-File <span class="ansi-green-intense-fg ansi-bold">C:\Python\Python310\lib\site-packages\openpyxl\utils\indexed_list.py:49</span>, in <span class="ansi-cyan-fg">IndexedList.add</span><span class="ansi-blue-intense-fg ansi-bold">(self, value)</span>
-<span class="ansi-green-fg">     47</span> <span class="ansi-bold" style="color: rgb(0,135,0)">def</span> <span style="color: rgb(0,0,255)">add</span>(<span style="color: rgb(0,135,0)">self</span>, value):
-<span class="ansi-green-fg">     48</span>     <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>append(value)
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 49</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">_dict</span><span class="ansi-yellow-bg">[</span><span class="ansi-yellow-bg">value</span><span class="ansi-yellow-bg">]</span>
-
-File <span class="ansi-green-intense-fg ansi-bold">C:\Python\Python310\lib\site-packages\openpyxl\styles\cell_style.py:57</span>, in <span class="ansi-cyan-fg">StyleArray.__hash__</span><span class="ansi-blue-intense-fg ansi-bold">(self)</span>
-<span class="ansi-green-fg">     56</span> <span class="ansi-bold" style="color: rgb(0,135,0)">def</span> <span style="color: rgb(0,0,255)">__hash__</span>(<span style="color: rgb(0,135,0)">self</span>):
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 57</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span class="ansi-yellow-bg" style="color: rgb(0,135,0)">hash</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg" style="color: rgb(0,135,0)">tuple</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg">)</span><span class="ansi-yellow-bg">)</span>
-
-<span class="ansi-red-intense-fg ansi-bold">KeyboardInterrupt</span>: </pre>
-</div>
+<div class="jp-RenderedImage jp-OutputArea-output ">
+<img src="data:image/png;base64,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
+"
+class="
+jp-needs-light-background
+"
+>
 </div>
 
 </div>
 
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[110]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s2">&quot;Start Time&quot;</span><span class="p">],</span> <span class="n">df</span><span class="p">[</span><span class="s2">&quot;Trip Duration&quot;</span><span class="p">])</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[110]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>&lt;matplotlib.collections.PathCollection at 0x2230e4adab0&gt;</pre>
+</div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+
+<div class="jp-RenderedImage jp-OutputArea-output ">
+<img src="data:image/png;base64,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
+"
+class="
+jp-needs-light-background
+"
+>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[111]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">&#39;BikeShare_Mod.csv&#39;</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
 </div>
 
 </div>
